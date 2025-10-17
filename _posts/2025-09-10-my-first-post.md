@@ -76,7 +76,7 @@
       The summer before senior year was honestly one of the best summers of my high school career. The previous summer, I just went on vacation with my family and then pretty much rotted for the next few weeks, so this one was a upgrade. It had a little bit of everything, fun, travel, work, and learning.
     </p>
 
-    <img src= "/blog/images/summer.png" alt="summer vibes">
+    <img src= "https://image-cdn.neatoshop.com/styleimg/104155/none/lightturquoise/default/457097-20;1590697323y.jpg" alt="summer vibes">
 
     <p>
       It all started on June 19, a few days before school officially ended. My friend and I went to a <strong>Stray Kids concert</strong>, which was my first concert ever. We had seats way in the back, but the view wasn’t bad at all. A thunderstorm delayed the show, but once it started, it was amazing. The lights, the energy, the crowd, it all felt unreal. By the end, I was completely exhausted and ready to go home, but it’s still one of my favorite memories.
