@@ -100,18 +100,6 @@ for char in text:
 
 print(count)
 
-<h2>Code Snippet 1 <h2>
-
-```python
-text = "Hello, world, my name is"
-count = 0
-
-for char in text:
-    if char == "":
-       count += 1
-
-print(count)
-
 ```
 Expected Purpose
 
@@ -203,6 +191,11 @@ Problem
 Solution
 
 (Expanation goes here…)
+
+## Conclusion
+
+
+
 
 </div>
 
