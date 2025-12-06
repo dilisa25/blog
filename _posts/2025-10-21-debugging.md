@@ -71,6 +71,7 @@
   <div class="container">
     <h1>Debugging<h1>
     <br>
+    <img src= "https://media.geeksforgeeks.org/wp-content/uploads/20190902105053/Debugging-Tips-To-Get-Better-At-It.png" alt="debugging">
     <br>
     <p>Debugging is the process of finding and identifying errors in your code that are preventing it from working, and then making the correct fixes. The term “debugging” actually originated in 1947 when a real bug got stuck inside a computer, which caused issues. The computer had to be physically “debugged,” and the name stuck. Debugging requires patience, observation, attention to detail, logical reasoning, and the willingness to acknowledge possible mistakes.</p>
 
@@ -115,7 +116,7 @@ print(count)
 <br>
 <h2>Code Snippet 2 <h2>
 
-```python
+``` python
 print("give me a number")
 n = input()
 
