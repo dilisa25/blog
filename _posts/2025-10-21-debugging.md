@@ -30,11 +30,25 @@ for char in text:
 
 print(count)
 ```
-### What It Was Supposed to Do
+#### What It Was Supposed to Do
 Count how many spaces are in the given string
-### Problem
+#### Problem
+The problem with the code is that it doesn’t count spaces because the condition if char == "" checks for an empty string instead of a space character. Therefore, the spaces are never counted.
+#### My Thought Process and Solution
+To make the space count I needed to change the condition to if char == " ". This correctly identifies spaces so the counter can count each space in the string.
 
-### My Thought Process and Solution
+The correct code is : 
+
+```python
+text = "Hello, world, my name is"
+count = 0
+
+for char in text:
+    if char == " ":
+       count += 1
+
+print(count)
+```
 
 ## Code Snippet 2
 
@@ -48,11 +62,26 @@ for num in range(1, n):
     else:
         print(num, "is odd.")
 ```
-### What It Was Supposed to Do
+#### What It Was Supposed to Do
 Determine if numbers 1 to n are even or odd 
-### Problem
+#### Problem
+There are three issues in this code. First, the input n = input() is a string, so range(1, n) doesn’t work because Python cannot treat n as a number. Secondly, the condition if num % 2 < 0 does not correctly check if a number is even or odd. Third, the code does not include the last number because range(1, n) only goes up to n - 1.
+#### My Thought Process and Solution
+To make this code work as intended, I converted the input to an integer by changing n = input() to n = int(input()). I also changed the condition to if num % 2 == 0 to correctly check for even numbers because if a number is divisible by two, it is even. Lastly, update the loop to range(1, n + 1) to include the last number.
 
-### My Thought Process and Solution
+The correct code is : 
+
+```python
+print("give me a number")
+n = int(input())
+
+for num in range(1, n + 1):
+    if num % 2 == 0:
+        print(num, "is even.")
+    else:
+        print(num, "is odd.")
+```
+
 
 ## Code Snippet 3
 ```python
@@ -67,10 +96,26 @@ else:
 
   print("Factorial of " + num + "is" + result)
 ```
-### What It Was Supposed to Do
+#### What It Was Supposed to Do
 Calculate the factorial of a given number
-### Problem
-### My Thought Process and Solution
+#### Problem
+The code does not handle negative numbers correctly because it only checks if num < -1, but the factorial of negative numbers is undefined. The print statement combines strings and integers incorrectly, which causes a type error. Also, range(1, num) does not include the last number in the factorial calculation.
+#### My Thought Process and Solution
+Change the negative number check to if num < 0. Fix the print statement by separating values with commas instead of using +. Update the range to range(1, num + 1) to include the last number in the factorial calculation.
+
+The correct code is:
+```python
+num = int(input("Enter an integer: "))
+
+if num < -1:
+  print("No negative numbers.")
+else:
+  result = 1
+  for i in range(1, num):
+    result *= i   
+
+  print("Factorial of " + num + "is" + result)
+``` 
 
 
 ## Code Snippet 4
@@ -92,13 +137,33 @@ while True:
         break
 ```
 
-### What It Was Supposed to Do
+#### What It Was Supposed to Do
 Ask user to enter the correct password but only give them 3 attempts
-### Problem
+#### Problem
+The code checks the wrong string ("incorrect_password") instead of the correct password. Users get four attempts instead of three, and the loop continues even after the correct password is entered.
+#### My Thought Process and Solution
+Change the condition to if password == correct_password to check the correct password. Limit attempts by changing the check to if attempts == 3. Add a break to exit the loop when the correct password is entered
 
-### My Thought Process and Solution
+The correct answer:
 
+```python
+attempts = 0
+correct_password = "secret"
 
+while True:
+    password = input("Enter your password: ")
+    
+    if password == correct_password:
+        print("Correct password!")
+        break
+    else:
+        print("Incorrect password")
+        attempts += 1
+
+    if attempts >= 3:
+        print("Too many attempts")
+        break
+``` 
 # Conclusion 
 Working through these coding challenges made me realize just how many different types of bugs can cause errors in your code. There are small syntax errors that prevent the program from running, runtime errors that only appear when the code is executed, and logic errors that happen when a developer accidentally writes code that returns unintended output. Even errors caused by the user can create issues. 
 
