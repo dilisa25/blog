@@ -69,7 +69,7 @@
 <body>
 
   <div class="container">
-    <h2>Debugging</h2>
+    <h1>Debugging</h1>
     <br>
     <br>
     <p>Debugging is the process of finding and identifying errors in your code that are preventing it from working, and then making the correct fixes. The term “debugging” actually originated in 1947 when a real bug got stuck inside a computer, which caused issues. The computer had to be physically “debugged,” and the name stuck. Debugging requires patience, observation, attention to detail, logical reasoning, and the willingness to acknowledge possible mistakes.</p>
@@ -84,22 +84,120 @@ Logic errors: the program runs without crashing but gives the wrong output.
 
 User errors: the user enters an invalid or unexpected input.
 
-<p>When I debug, I start by predicting what the code should do. Usually, the terminal in VS Code shows the error and the line it’s coming from, which helps with syntax or runtime issues. If it’s a logic error, it’s important to look closely at what the code is actually producing. From there, I go through each line, figure out where things go wrong, and fix it. It important not just to fix the bug, but to understand why it happened so I can avoid similar mistakes in the future.</p>
+<p>When I debug, I start by predicting what the code should do. Usually, the terminal in VS Code shows the error and the line it’s coming from, which helps with syntax or runtime issues. If it’s a logic error, it’s important to throughly examine the code output. From there, I go through each line, figure out where things go wrong, and fix it. It important not just to fix the bug, but to understand why it happened so I can avoid similar mistakes in the future.</p>
     
 <br>
 <p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
 <p>
-```python
-temperature = 75
 
-if temperature > 80:
-    print("It's hot")
-elif temperature > 50:
-    print("It's temperate")
-elif temperature < 0:
-    print("It's cold")
+<h2>Code Snippet 1 </h2>
+
+```python
+text = "Hello, world, my name is"
+count = 0
+
+for char in text:
+    if char == "":
+       count += 1
+
+print(count)
 
 ```
+<h3>Expected Purpose </h3>
+<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
+<p>
+<h3>Problem</h3>
+<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
+<p>
+<h3>Solution</h3>
+<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
+<br>
+<br>
+<h2>Code Snippet 2 </h2>
+
+```python
+print("give me a number")
+n = input()
+
+for num in range(1, n):
+    if num % 2 < 0:
+        print(num, "is even.")
+    else:
+        print(num, "is odd.")
+
+
+```
+
+
+<h3>Expected Purpose </h3>
+<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
+<p>
+<h3>Problem</h3>
+<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
+<p>
+<h3>Solution</h3>
+<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
+<p>
+<br>
+<br>
+<h2>Code Snippet 3 </h2>
+
+```python
+num = int(input("Enter an integer: "))
+
+if num < -1:
+  print("No negative numbers.")
+else:
+  result = 1
+  for i in range(1, num):
+    result *= i   
+
+  print("Factorial of " + num + "is" + result)
+
+```
+<h3>Expected Purpose </h3>
+<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
+<p>
+<h3>Problem</h3>
+<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
+<p>
+<h3>Solution</h3>
+<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
+</p>
+<br>
+<br>
+<h2>Code Snippet 4 </h2>
+
+```python
+attempts = 0
+correct_password = "secret"
+
+while True:
+    password = input("Enter your password: ")
+    attempts += 1
+
+    if password == "incorrect_password":
+        print("Correct password!")
+    else:
+        print("Incorrect password")
+
+    if attempts > 3:
+        print("Too many attempts")
+        break
+
+```
+<h3>Expected Purpose </h3>
+<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
+<p>
+<h3>Problem</h3>
+<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
+<p>
+<h3>Solution</h3>
+<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
+</p>
+<br>
+<br>
+
 </body>
 
 
