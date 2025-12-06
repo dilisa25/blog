@@ -1,73 +1,3 @@
-<style>
-    body {
-      font-family: 'Times New Roman', sans-serif;
-      background-color: #fafafa;
-      color: #333;
-      margin: 0;
-      padding: 0;
-      line-height: 1.7;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
-      background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    }
-
-    h2 {
-      text-align: center;
-      color: #6c5ce7;
-      font-size: 2em;
-      margin-bottom: 20px;
-    }
-
-    p {
-      font-size: 1.05em;
-      margin: 18px 0;
-    }
-
-    strong {
-      color: #6c5ce7;
-    }
-
-    img {
-      width: 100%;
-      border-radius: 12px;
-      margin: 20px 0;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .quote {
-      background-color: #f3f0ff;
-      border-left: 4px solid #6c5ce7;
-      padding: 15px 20px;
-      font-style: italic;
-      border-radius: 8px;
-      margin: 25px 0;
-    }
-
-    footer {
-      text-align: center;
-      font-size: 0.9em;
-      color: #777;
-      margin-top: 40px;
-    }
-
-    @media (max-width: 600px) {
-      .container {
-        margin: 20px;
-        padding: 15px;
-      }
-      h2 {
-        font-size: 1.6em;
-      }
-    }
-  </style>
-
-<div class="container">
 
 # Debugging
 
@@ -99,21 +29,11 @@ for char in text:
        count += 1
 
 print(count)
-
 ```
-Expected Purpose
 
-(Explanation goes here…)
+## Code Snippet 2
 
-Problem
-
-(Explanation goes here…)
-
-Solution
-
-(Explanation goes here…)
-
-``` python
+```python
 print("give me a number")
 n = input()
 
@@ -122,21 +42,8 @@ for num in range(1, n):
         print(num, "is even.")
     else:
         print(num, "is odd.")
-
 ```
-
-Expected Purpose
-
-(Explanation goes here…)
-
-Problem
-
-(Explanation goes here…)
-
-Solution
-
-(Expanation goes here…)
-
+## Code Snippet 3
 ```python
 num = int(input("Enter an integer: "))
 
@@ -148,20 +55,9 @@ else:
     result *= i   
 
   print("Factorial of " + num + "is" + result)
-
 ```
-Expected Purpose
 
-(Explanation goes here…)
-
-Problem
-
-(Explanation goes here…)
-
-Solution
-
-(Expanation goes here…)
-
+## Code Snippet 4
 ```python
 attempts = 0
 correct_password = "secret"
@@ -178,29 +74,4 @@ while True:
     if attempts > 3:
         print("Too many attempts")
         break
-
 ```
-Expected Purpose
-
-(Explanation goes here…)
-
-Problem
-
-(Explanation goes here…)
-
-Solution
-
-(Expanation goes here…)
-
-## Conclusion
-
-
-
-
-</div>
-
-
-    
-      
-
-    
