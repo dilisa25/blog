@@ -66,30 +66,39 @@
       }
     }
   </style>
-<body>
 
-  <div class="container">
-    <h1>Debugging<h1>
-    <br>
-    <img src= "https://media.geeksforgeeks.org/wp-content/uploads/20190902105053/Debugging-Tips-To-Get-Better-At-It.png" alt="debugging">
-    <br>
-    <p>Debugging is the process of finding and identifying errors in your code that are preventing it from working, and then making the correct fixes. The term “debugging” actually originated in 1947 when a real bug got stuck inside a computer, which caused issues. The computer had to be physically “debugged,” and the name stuck. Debugging requires patience, observation, attention to detail, logical reasoning, and the willingness to acknowledge possible mistakes.</p>
+<div class="container">
+
+# Debugging
+
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20190902105053/Debugging-Tips-To-Get-Better-At-It.png" alt="debugging">
+
+Debugging is the process of finding and identifying errors in your code that are preventing it from working, and then making the correct fixes. The term “debugging” actually originated in 1947 when a real bug got stuck inside a computer, which caused issues. The computer had to be physically “debugged,” and the name stuck. Debugging requires patience, observation, attention to detail, logical reasoning, and the willingness to acknowledge possible mistakes.
 
 Most bugs fall into these types of errors:
 
-Syntax errors: the code literally cannot run because it breaks Python’s rules.
+- **Syntax errors:** The code cannot run because it breaks Python’s rules.
+- **Runtime errors:** The program starts but crashes when it hits an error.
+- **Logic errors:** The program runs but gives the wrong output.
+- **User errors:** The user enters invalid or unexpected input.
 
-Runtime errors: the program starts but crashes while running when it hits an error.
+When I debug, I start by predicting what the code should do. Usually, the terminal in VS Code shows the error and the line it’s coming from, which helps with syntax or runtime issues. For logic errors, I examine the output closely to see where it goes wrong. From there, I work through each line, identify the mistake, and fix it. It's important not just to fix the bug, but understand why it happened so I can avoid similar issues in the future.
 
-Logic errors: the program runs without crashing but gives the wrong output.
+For this debugging exercise, I worked through four code snippets, each with different types of errors. Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them.
 
-User errors: the user enters an invalid or unexpected input.
+---
 
-<p>When I debug, I start by predicting what the code should do. Usually, the terminal in VS Code shows the error and the line it’s coming from, which helps with syntax or runtime issues. If it’s a logic error, it’s important to throughly examine the code output. From there, I go through each line, figure out where things go wrong, and fix it. It important not just to fix the bug, but to understand why it happened so I can avoid similar mistakes in the future.</p>
-    
-<br>
-<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
-<p>
+## Code Snippet 1
+
+```python
+text = "Hello, world, my name is"
+count = 0
+
+for char in text:
+    if char == "":
+       count += 1
+
+print(count)
 
 <h2>Code Snippet 1 <h2>
 
@@ -104,17 +113,17 @@ for char in text:
 print(count)
 
 ```
-<h3>Expected Purpose <h3>
-<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
-<p>
-<h3>Problem<h3>
-<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
-<p>
-<h3>Solution<h3>
-<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
-<br>
-<br>
-<h2>Code Snippet 2 <h2>
+Expected Purpose
+
+(Explanation goes here…)
+
+Problem
+
+(Explanation goes here…)
+
+Solution
+
+(Explanation goes here…)
 
 ``` python
 print("give me a number")
@@ -126,22 +135,19 @@ for num in range(1, n):
     else:
         print(num, "is odd.")
 
-
 ```
 
+Expected Purpose
 
-<h3>Expected Purpose <h3>
-<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
-<p>
-<h3>Problem<h3>
-<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
-<p>
-<h3>Solution<h3>
-<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
-<p>
-<br>
-<br>
-<h2>Code Snippet 3 <h2>
+(Explanation goes here…)
+
+Problem
+
+(Explanation goes here…)
+
+Solution
+
+(Expanation goes here…)
 
 ```python
 num = int(input("Enter an integer: "))
@@ -156,18 +162,17 @@ else:
   print("Factorial of " + num + "is" + result)
 
 ```
-<h3>Expected Purpose <h3>
-<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
-<p>
-<h3>Problem<h3>
-<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
-<p>
-<h3>Solution<h3>
-<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
-<p>
-<br>
-<br>
-<h2>Code Snippet 4 </h2>
+Expected Purpose
+
+(Explanation goes here…)
+
+Problem
+
+(Explanation goes here…)
+
+Solution
+
+(Expanation goes here…)
 
 ```python
 attempts = 0
@@ -187,20 +192,19 @@ while True:
         break
 
 ```
-<h3>Expected Purpose <h3>
-<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
-<p>
-<h3>Problem<h3>
-<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
-<p>
-<h3>Solution<h3>
-<p>For this debugging exercise, I worked through four code snippets, each with with types of errors.Below is a breakdown of each snippet, the problems I found, the reasoning behind my fixes, and what I learned from debugging them
-<p>
-<br>
-<br>
+Expected Purpose
 
-</body>
+(Explanation goes here…)
 
+Problem
+
+(Explanation goes here…)
+
+Solution
+
+(Expanation goes here…)
+
+</div>
 
 
     
