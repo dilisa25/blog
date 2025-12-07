@@ -99,9 +99,9 @@ else:
 #### What It Was Supposed to Do
 Calculate the factorial of a given number
 #### Problem
-The code does not handle negative numbers correctly because it only checks if num < -1, but the factorial of negative numbers is undefined. The print statement combines strings and integers incorrectly, which causes a type error. Also, range(1, num) does not include the last number in the factorial calculation.
+The code does not handle negative numbers correctly because it only checks if num < -1, but the factorial of negative numbers is undefined. The print statement combines strings and integers incorrectly, which causes a syntax error. Also, range(1, num) does not include the last number in the factorial calculation.
 #### My Thought Process and Solution
-Change the negative number check to if num < 0. Fix the print statement by separating values with commas instead of using +. Update the range to range(1, num + 1) to include the last number in the factorial calculation.
+To fix this code I changed the negative number check to if num < 0. Fixed the print statement by separating values with commas instead of using +. Update the range to range(1, num + 1) to include the last number in the factorial calculation.
 
 The correct code is:
 ```python
@@ -140,11 +140,11 @@ while True:
 #### What It Was Supposed to Do
 Ask user to enter the correct password but only give them 3 attempts
 #### Problem
-The code checks the wrong string ("incorrect_password") instead of the correct password. Users get four attempts instead of three, and the loop continues even after the correct password is entered.
+The code checks the wrong string ("incorrect_password") instead of the correct password and the user is allowed four attempts instead of three.
 #### My Thought Process and Solution
-Change the condition to if password == correct_password to check the correct password. Limit attempts by changing the check to if attempts == 3. Add a break to exit the loop when the correct password is entered
+To make the code work as intended I changed the condition to if password == correct_password to actually check the correct password. I limited the the attempts to 3 instead of 4 by changing the conditional to if attempts >= 3. 
 
-The correct answer:
+The correct code is:
 
 ```python
 attempts = 0
