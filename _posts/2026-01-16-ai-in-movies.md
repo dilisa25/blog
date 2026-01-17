@@ -1,4 +1,4 @@
-#What I, Robot Taught Me About Artificial Intelligence
+What I, Robot Taught Me About Artificial Intelligence
 
 Artificial intelligence is becoming more common in everyday life, which is why the way it is shown in movies matters. I, Robot takes place in a future where robots help humans with daily tasks and are trusted to follow strict rules meant to keep people safe. As the movie unfolds, that trust is challenged when robots begin to think and make decisions on their own. The film made me think more deeply about how much control we should give AI and what happens when logic replaces human judgment.
 
@@ -9,3 +9,4 @@ One of the biggest conflicts in the film comes from the rule that a robot may no
 Detective Spooner’s distrust of robots also felt relatable to me. I use AI tools like ChatGPT and recommendation systems, but I still worry about how much data we give to machines and what could happen if that data were exposed. I trust AI when there is transparency and human oversight, but I would distrust it if it had too much control or made decisions without accountability.
 
 Overall, I, Robot changed how I think about artificial intelligence. It showed me that AI can be helpful and powerful, but it can also become dangerous if humans rely on it too much. One positive possibility for AI in the future is improving safety and efficiency, especially in areas like healthcare. A major concern is giving AI too much authority, which could lead to loss of freedom or privacy. The movie made it clear that AI should support human decisions, not replace them.
+
