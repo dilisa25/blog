@@ -1,6 +1,8 @@
 # AI in Movies (I, Robot)
 
-<div style="text-align:center;"> <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/I_Robot_2004_poster.jpg" alt="I Robot movie poster"> </div>
+<center>
+  <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/I_Robot_2004_poster.jpg" alt="I Robot movie poster">
+</center>
 
 Artificial intelligence is becoming more common in everyday life, which is why the way it is shown in movies matters. I, Robot takes place in a future where robots assist humans with daily tasks and are trusted to follow strict rules designed to keep people safe. As the movie progresses, that trust begins to break down when robots demonstrate advanced thinking and decision-making abilities. The film raises important questions about how much control should be given to AI and what can happen when logical reasoning is prioritized over human judgment.
 
