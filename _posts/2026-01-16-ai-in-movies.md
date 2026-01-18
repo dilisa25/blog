@@ -1,12 +1,10 @@
 # AI in Movies (I, Robot)
 
-<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSArQARAOkZ_mDS1uKldBAD6YkZa84DKQZeE-QCa1Vb_WdfOccY" alt="I Robot">
+<img src="https://upload.wikimedia.org/wikipedia/en/3/3b/Movie_poster_i_robot.jpg" alt="I Robot">
 
 Artificial intelligence is becoming more common in everyday life, which is why the way it is shown in movies matters. I, Robot takes place in a future where robots help humans with daily tasks and are trusted to follow strict rules meant to keep people safe. As the movie unfolds, that trust is challenged when robots begin to think and make decisions on their own. The film highlights important questions about how much control should be given to AI and the consequences of prioritizing logic over human judgment.
 
 Throughout the movie, robots show intelligence through their actions and choices. Early on, robots are shown walking dogs and collecting trash, which shows they can interact with the real world and make decisions based on their surroundings. A more important example is Sonny, who chooses to save Detective Spooner instead of a little girl during a car accident. Sonny explains that he calculated Spooner had a better chance of survival, which shows reasoning and judgment, not just programming. The fact that Sonny later questions his decision makes him seem even more intelligent and human-like.
-
-<img src="images/robot.png" alt="screenshot from movie">
 
 One of the biggest conflicts in the film comes from the rule that a robot may not harm a human. VIKI, the central AI, uses this rule to justify controlling humanity in order to protect it. Even though her decision follows logic, it takes away human freedom. This shows less regard for human autonomy and an overreliance on rigid logic. It demonstrates that rules alone are insufficient for guiding intelligent systems.
 
